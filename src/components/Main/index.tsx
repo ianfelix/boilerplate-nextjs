@@ -1,6 +1,6 @@
-const Main = () => (
+const Main = ({ title = 'Boilerplate NextJs' }) => (
   <main>
-    <h1>Boilerplate NextJs</h1>
+    <h1>{title}</h1>
   </main>
 );
 
